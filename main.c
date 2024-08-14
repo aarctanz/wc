@@ -33,15 +33,15 @@ void count(bool countLine, bool countWord, bool countChar, FILE *fp, char *filen
     }
     if (countLine == true)
     {
-        printf("%d ", lines);
+        printf("%d\t", lines);
     }
     if (countWord == true)
     {
-        printf("%d ", words);
+        printf("%d\t", words);
     }
     if (countChar == true)
     {
-        printf("%d ", chars);
+        printf("%d\t", chars);
     }
     printf("%s\n", filename);
 }
